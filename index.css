@@ -1,0 +1,74 @@
+body {
+  background-color: white;
+}
+
+header {
+  width: 100%;
+  background-color: rgba(115, 111, 186, 0.9921568627);
+}
+header img {
+  border-radius: 50%;
+  width: 30vmin;
+  height: 30vmin;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  margin: auto;
+  display: block;
+}
+header .resumename {
+  font-size: 36px;
+  text-align: center;
+  color: white;
+}
+header .zayuunomei {
+  font-size: 24px;
+  text-align: center;
+  color: white;
+}
+
+.area2 {
+  padding: 0 56px;
+  border-top: 2px solid black;
+}
+.area2 .h2h3 {
+  display: flex;
+}
+.area2 h3 {
+  color: rgba(115, 111, 186, 0.9921568627);
+}
+
+.area3 {
+  border-top: 2px solid white;
+  width: 100%;
+  background-color: rgba(115, 111, 186, 0.9921568627);
+  text-align: center;
+  color: white;
+}
+.area3 .btn {
+  transition: 0.6s;
+}
+.area3 .btn:hover {
+  cursor: pointer;
+  background-color: #888;
+}
+.area3 .btn:active {
+  scale: 0.95;
+}
+
+.area4 {
+  padding: 0 56px;
+}
+.area4 .h2h3 {
+  display: flex;
+}
+.area4 h3 {
+  color: rgba(115, 111, 186, 0.9921568627);
+}
+.area4 li {
+  font-size: 28px;
+}
+.area4 .titlep {
+  color: rgba(115, 111, 186, 0.9921568627);
+}/*# sourceMappingURL=index.css.map */

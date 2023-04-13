@@ -1,0 +1,98 @@
+$resume-bgcolor:#736fbafd;
+$text-color:#333335fd;
+
+body{
+    // padding: 0 56px;
+    background-color: white;
+}
+
+header{
+    width: 100%;
+    background-color: $resume-bgcolor;
+
+    img{
+        
+        border-radius: 50%; //圓形
+        width: 30vmin;  //圓形
+        height: 30vmin;  //圓形
+        object-fit: cover;  //圓形
+        object-position: center; //圓形
+        margin: auto;//置中
+        display: block;//置中
+       
+        
+    }
+    .resumename{
+        font-size: 36px;
+        text-align: center;
+        color: white;
+    }
+
+    .zayuunomei{
+        font-size: 24px;
+        text-align: center;
+        color: white;
+    }
+}
+
+.area2{
+    
+    padding: 0 56px;
+
+    .h2h3{
+        display: flex; //橫放
+    }
+    border-top: 2px solid black;//一條線線
+    h3{
+        color: $resume-bgcolor;
+    }
+    
+}
+
+.area3{
+    border-top: 2px solid white;//一條線線
+    width: 100%;
+    background-color: $resume-bgcolor;
+    text-align: center;
+    color: white;
+
+    
+    .buttom-area{
+      
+    }
+    
+
+    .btn{
+        transition: 0.6s;
+    }
+
+    .btn:hover{
+        cursor: pointer;
+        background-color: #888;
+    }
+
+    .btn:active { //典擊的感覺
+        scale: 0.95;
+    }
+
+}
+
+.area4 {
+    padding: 0 56px;
+    
+    .h2h3{
+        display: flex; //橫放
+    }
+
+    h3{
+        color: $resume-bgcolor;
+    }
+
+    li{
+        font-size: 28px;
+    }
+
+    .titlep{
+        color: $resume-bgcolor;
+    }
+}
